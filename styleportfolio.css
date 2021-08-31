@@ -1,3 +1,27 @@
+.topnav {
+    background-color: #2a3342;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    
+  }
 .Top{
     background-color: #2a3342;
     position: relative;
@@ -13,15 +37,23 @@ body{
     color: #40514e;
     background-color: #212b3b;
 }
+.coder{
+    max-width: 25%;
+    height: auto;
+}
 .bottom-cloud{
     position: absolute;
     bottom: 400px;
-    left: 250px;
+    left: 180px;
+    max-width: 7%;
+    height: auto;
 }
 .Top-cloud{
     position: absolute;
-    right: 300px;
+    right: 200px;
     top: 15px;
+    max-width: 7%;
+    height: auto;
 }
 h1{
     color: #66BFBF;
